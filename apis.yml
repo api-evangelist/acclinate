@@ -1,7 +1,26 @@
 aid: acclinate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acclinate.png
 name: Acclinate
-description: Acclinate is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Acclinate is a health-equity technology company that improves clinical trial
+  diversity by building trust with historically underrepresented communities. Its NOWINCLUDED
+  community platform engages 250,000+ members with culturally relevant content and in-person
+  events, while its proprietary e-DICT AI/ML engine transforms community trust signals into
+  predictive enrollment intelligence — participation-probability scoring, demographic
+  forecasting, and real-time dashboards for pharmaceutical sponsors and CROs. Acclinate
+  operates as a managed service across a three-stage trust model (Access, Engage, Mobilize)
+  rather than a self-service developer platform; no public API, developer portal, or API
+  documentation is published as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/acclinate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +33,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Health
+- Clinical Trials
+- Health Equity
+- Patient Recruitment
+- Artificial Intelligence
+- Machine Learning
+- Healthcare
+- Diversity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://acclinate.com/
+- type: Blog
+  url: https://blog.acclinate.com/
+- type: Support
+  url: https://acclinate.com/contact-us
+- type: TermsOfService
+  url: https://acclinate.com/terms-of-use-acclinate
+- type: PrivacyPolicy
+  url: https://acclinate.com/privacy
+- type: DomainSecurity
+  url: security/acclinate-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
